@@ -14,7 +14,7 @@ const Header = () => {
           <Box sx={{ display: 'flex', gap: 3, alignItems: 'center' }}>
 
             <Link
-              href="https://github.com/" // Replace with repo link
+              href="https://github.com/Dustfoxx/board-game-madness/" // Replace with repo link
               target="_blank"
               rel="noopener noreferrer"
               sx={{ display: 'flex', alignItems: 'center' }}

@@ -8,7 +8,7 @@ const Header = () => {
       <AppBar position="static" color="transparent" elevation={0}>
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Typography variant="h6" sx={{ fontWeight: 'bold', color: 'text.primary' }}>
-            Project Name
+            The Mind Managers
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 3, alignItems: 'center' }}>
@@ -19,7 +19,7 @@ const Header = () => {
               rel="noopener noreferrer"
               sx={{ display: 'flex', alignItems: 'center' }}
             >
-              <GitHubIcon sx={{ fontSize: 24, color: 'black' }} />
+              <GitHubIcon sx={{ fontSize: 30, color: 'black' }} />
             </Link>
           </Box>
         </Toolbar>

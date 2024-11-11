@@ -2,15 +2,20 @@ import React from 'react';
 import { AppBar, Box, Toolbar, Typography, Link } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Divider } from "@mui/material";
+import { Search } from '@mui/icons-material';
 
 const Header = () => {
   return (
     <div>
       <AppBar position="static" color="transparent" elevation={0}>
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Typography variant="h6" sx={{ fontWeight: 'bold', color: 'text.primary' }}>
-            The Mind Managers
-          </Typography>
+
+        <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+      <Search style={{ fontSize: 25, color: 'black' }} />
+      <Typography variant="h6" sx={{ fontWeight: 'bold'}}>
+        The Mind Managers
+      </Typography>
+    </div>
 
           <Box sx={{ display: 'flex', gap: 3, alignItems: 'center' }}>
             <Link

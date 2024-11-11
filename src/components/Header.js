@@ -1,7 +1,6 @@
 import React from 'react';
 import { AppBar, Box, Toolbar, Typography, Link } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Toc } from '@mui/icons-material';
 
 const Header = () => {
   return (
@@ -13,9 +12,6 @@ const Header = () => {
           </Typography>
 
           <Box sx={{ display: 'flex', gap: 3, alignItems: 'center' }}>
-            <Link href="/about" color="inherit" underline="hover">
-              About
-            </Link>
 
             <Link
               href="https://github.com/" // Replace with repo link
@@ -27,7 +23,6 @@ const Header = () => {
             </Link>
           </Box>
         </Toolbar>
-        <Toc></Toc>
       </AppBar>
       <Box sx={{ pt: 4, maxWidth: 'lg', mx: 'auto', px: { xs: 3, md: 5 } }}>
       </Box>

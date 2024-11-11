@@ -12,7 +12,7 @@ function Team() {
   return (
     <div style={{ width: '70%', display: 'flex', justifyContent: 'center', padding: '12px', margin: '0 auto' }}>
       {members.map((member, index) => (
-        <div key={index} style={{ flex: 1, padding: '5px', textAlign: 'center', borderRadius: '8px', margin: '5px' }}>
+        <div key={index} style={{ flex: 1, padding: '5px', textAlign: 'center', margin: '5px' }}>
           <h4 style={{ fontSize: '14px', margin: '5px 0' }}>{member.name}</h4>
           <p style={{'fontSize': 10}}>{member.info}</p>
         </div>

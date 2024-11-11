@@ -8,7 +8,7 @@ function HomePage() {
             <h3>Current state of the project</h3>
             <Divider></Divider>
 
-            <img src="assets/group.jpg" style={{ width: '40%', padding: '2%'}}></img>
+            <img src="assets/group.jpg" style={{ width: '30%', padding: '2%'}}></img>
             <Team></Team>
       </div>
     );

@@ -10,9 +10,9 @@ function Team() {
   ];
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-around', padding: '12px' }}>
+    <div style={{ width: '70%', display: 'flex', justifyContent: 'center', padding: '12px', margin: '0 auto' }}>
       {members.map((member, index) => (
-        <div key={index} style={{ flex: 1, padding: '5px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', margin: '5px' }}>
+        <div key={index} style={{ flex: 1, padding: '5px', textAlign: 'center', borderRadius: '8px', margin: '5px' }}>
           <h4>{member.name}</h4>
         </div>
       ))}
